@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <!-- Slick -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick.min.css"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.8/slick-theme.min.css"
+    />
+    <!-- Slick -->
+    <!-- Font Family Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Family Poppins -->
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Font Awesome -->
+    <!-- Fav Icon -->
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon" />
+    <!-- Fav Icon -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/responsive.css" />
+    <!-- CSS -->
+    <title>Envision Tenx</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="container-1520">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid p-0">
+              <a class="navbar-brand logo" href="#"
+                ><img src="assets/logo.png" alt=""
+              /></a>
+              <button
+                class="navbar-toggler navbar-dark"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                  <li class="nav-item my-li">
+                    <a
+                      class="nav-link active fa-18 mytext-light text-black"
+                      aria-current="page"
+                      href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item my-li">
+                    <a
+                      class="nav-link active fa-18 mytext-light text-black"
+                      aria-current="page"
+                      href="#"
+                      >About Us</a
+                    >
+                  </li>
+                  <li class="nav-item my-li">
+                    <a
+                      class="nav-link active fa-18 mytext-light text-black"
+                      aria-current="page"
+                      href="#"
+                      >Services</a
+                    >
+                  </li>
+                  <li class="nav-item my-li m-0">
+                    <a
+                      class="nav-link active fa-18 mytext-light text-black"
+                      aria-current="page"
+                      href="#"
+                      >Testimonials</a
+                    >
+                  </li>
+                  <li class="nav-item my-li myli-btn">
+                    <a
+                      class="nav-link active fa-18 mytext-light text-black"
+                      aria-current="page"
+                      href="#"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <form class="main-btn">
+                <button class="header-btn" type="submit">Contact Us</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+
+        <!-- Get Started Modal -->
+        <div
+          class="modal fade"
+          id="GetStartedModal"
+          tabindex="-1"
+          aria-labelledby="GetStartedModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content text-center">
+              <div class="modal-body position-relative">
+                <a class="logo" href="#"
+                  ><img src="assets/footer-logo.png" alt=""
+                /></a>
+                <h5 class="modal-title" id="GetStartedModalLabel">
+                  Get Started
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+                <form action="backend">
+                  <input
+                    type="text"
+                    name="Name"
+                    placeholder="Enter Your Name"
+                  />
+                  <input
+                    type="email"
+                    name="Email"
+                    id="Email"
+                    placeholder="Enter Your Email Address"
+                  />
+                  <input
+                    type="tel"
+                    name="phone"
+                    id="phone"
+                    placeholder="Enter Your Phone Number"
+                  />
+                </form>
+                <button type="button" class="btn reg-btn">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Get Started Modal -->
+      </header>
+      <section class="sec-1 position-relative">
+        <div class="container-1520">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="main-content">
+                <h1 class="text-light-black fa-80 text-semibold lh-84">
+                  We Make Your Brand Look Good
+                </h1>
+                <p class="fa-18 lh-31">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+                <button
+                  class="reg-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#GetStartedModal"
+                >
+                  Get Started
+                </button>
+                <div class="social">
+                  <a
+                    href=""
+                    class="text-decoration-none text-light-black fa-14 text-bold"
+                    ><i class="fa-brands fa-facebook-f fb-color"></i>
+                    <span>FACEBOOK</span></a
+                  >
+                  <a
+                    href=""
+                    class="text-decoration-none text-light-black fa-14 text-bold"
+                    ><i class="fa-brands fa-youtube u-color"></i>
+                    <span>YOUTUBE</span></a
+                  >
+                  <a
+                    href=""
+                    class="text-decoration-none text-light-black fa-14 text-bold"
+                    ><i class="fa-brands fa-twitter t-color"></i>
+                    <span>TWITTER</span></a
+                  >
+                  <a
+                    href=""
+                    class="text-decoration-none text-light-black fa-14 text-bold"
+                    ><i class="fa-brands fa-behance t-color"></i>
+                    <span>BEHANCE</span></a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="main-banner">
+                <img src="assets/human.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-2">
+        <div class="container-1520">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="sec2-img">
+                <img src="assets/sec2-img.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="sec2-content">
+                <div class="about position-relative">
+                  <a
+                    href=""
+                    class="text-grey fa-17 text-medium text-decoration-none"
+                    >ABOUT US</a
+                  >
+                </div>
+                <h2 class="text-light-black fa-80 text-semibold lh-78">
+                  We're here to help you grow
+                </h2>
+                <p class="fa-20 lh-34">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+                <div class="sec2-service">
+                  <div class="our-services">
+                    <div class="sec2-icon">
+                      <img src="assets/sec2-icon1.png" alt="" />
+                    </div>
+                    <div class="sec2Service-content">
+                      <h3 class="text-light-black text-semibold fa-25">
+                        Fast working Process
+                      </h3>
+                      <p class="fa-20 lh-30 text-grey">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="our-services">
+                    <div class="sec2-icon">
+                      <img src="assets/sec2-icon2.png" alt="" />
+                    </div>
+                    <div class="sec2Service-content">
+                      <h3 class="text-light-black text-semibold fa-25">
+                        Dedicated Team
+                      </h3>
+                      <p class="fa-20 lh-30 text-grey">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="our-services">
+                    <div class="sec2-icon">
+                      <img src="assets/sec2-icon3.png" alt="" />
+                    </div>
+                    <div class="sec2Service-content">
+                      <h3 class="text-light-black text-semibold fa-25">
+                        24/7 Hour Support
+                      </h3>
+                      <p class="fa-20 lh-30 text-grey">
+                        Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-3">
+        <div class="container-1520">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="sec3-content position-relative">
+                <h3 class="text-semibold fa-50 lh-63 text-white">
+                  The growth accelerator for startups
+                </h3>
+                <p class="fa-20 lh-34 text-white">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard dummy text ever since the 1500s.
+                </p>
+                <button
+                  class="reg-btn"
+                  data-bs-toggle="modal"
+                  data-bs-target="#GetStartedModal"
+                >
+                  Get Started
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="pc-img circle position-relative">
+                <img src="assets/pc-img.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-4">
+        <div class="container-1520">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="sec4-content">
+                <div class="about position-relative">
+                  <a
+                    href=""
+                    class="text-grey fa-17 text-medium text-decoration-none"
+                    >OUR SERVICES</a
+                  >
+                </div>
+                <h2 class="text-light-black fa-80 text-semibold lh-78">
+                  Make better ideas happen fast
+                </h2>
+                <p class="fa-20 lh-34">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the industry's
+                  standard.
+                </p>
+                <button class="reg-btn">View All</button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="sec4-card">
+                <div class="img-n-heading">
+                  <div class="sec4-card-img">
+                    <img src="assets/creative-desigining.png" alt="" />
+                  </div>
+                  <h3 class="text-medium fa-35 text-light-black">
+                    Creative Desigining
+                  </h3>
+                </div>
+                <p class="fa-22 lh-31">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the.
+                </p>
+                <button class="card-btn">
+                  Learn More
+                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="sec4-card">
+                <div class="img-n-heading">
+                  <div class="sec4-card-img">
+                    <img src="assets/social-media.png" alt="" />
+                  </div>
+                  <h3 class="text-medium fa-35 text-light-black">
+                    Social Media
+                  </h3>
+                </div>
+                <p class="fa-22 lh-31">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the.
+                </p>
+                <button class="card-btn">
+                  Learn More
+                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="sec4-card">
+                <div class="img-n-heading">
+                  <div class="sec4-card-img">
+                    <img src="assets/web-development.png" alt="" />
+                  </div>
+                  <h3 class="text-medium fa-35 text-light-black">
+                    Web Development
+                  </h3>
+                </div>
+                <p class="fa-22 lh-31">
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry. Lorem Ipsum has been the.
+                </p>
+                <button class="card-btn">
+                  Learn More
+                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-5">
+        <div class="container-1520">
+          <div class="row align-items-center">
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="sec5-heading">
+                <div class="about position-relative">
+                  <a
+                    href=""
+                    class="text-grey fa-17 text-medium text-decoration-none"
+                    >OUR PROJECT</a
+                  >
+                </div>
+                <h3 class="text-semibold fa-80">Creative Work</h3>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="all-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#all"
+                    type="button"
+                    role="tab"
+                    aria-controls="all"
+                    aria-selected="true"
+                  >
+                    All
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="website-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#website"
+                    type="button"
+                    role="tab"
+                    aria-controls="website"
+                    aria-selected="false"
+                  >
+                    Website Design
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="Branding-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#Branding"
+                    type="button"
+                    role="tab"
+                    aria-controls="Branding"
+                    aria-selected="false"
+                  >
+                    Branding Design
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link m-0"
+                    id="app-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#app"
+                    type="button"
+                    role="tab"
+                    aria-controls="app"
+                    aria-selected="false"
+                  >
+                    App Design
+                  </button>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-12 col-md-12 col-12 content-img">
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="all"
+                  role="tabpanel"
+                  aria-labelledby="all-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle1.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle2.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle3.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle4.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="website"
+                  role="tabpanel"
+                  aria-labelledby="website-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle1.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle2.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle3.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle4.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="Branding"
+                  role="tabpanel"
+                  aria-labelledby="Branding-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle1.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle2.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle3.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle4.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="app"
+                  role="tabpanel"
+                  aria-labelledby="app-tab"
+                >
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle1.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle2.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle3.png" alt="" />
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                      <div class="tabs-img">
+                        <img src="assets/Rectangle4.png" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-6">
+        <div class="container-1520">
+          <div class="row align-items-center testimonial-row">
+            <div class="col-lg-6 col-md-6 col-12">
+              <div class="testi-img">
+                <img src="assets/testimonial-img.png" alt="" />
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-12 testi-content">
+              <div class="about position-relative">
+                <a
+                  href=""
+                  class="text-grey fa-17 text-medium text-decoration-none"
+                  >TESTIMONIAL</a
+                >
+              </div>
+              <h4 class="text-light-black text-medium fa-35">
+                What Our Clients Say
+              </h4>
+              <div class="testi-slider">
+                <div class="testimonial testi-before position-relative">
+                  <p class="fa-22 lh-31 text-grey">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s,
+                  </p>
+                  <h5 class="testi-color text-bold fa-17">TIM MARTIN</h5>
+                  <span class="fa-22 text-grey">Customer</span>
+                </div>
+                <div class="testimonial testi-before position-relative">
+                  <p class="fa-22 lh-31 text-grey">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s,
+                  </p>
+                  <h5 class="testi-color text-bold fa-17">TIM MARTIN</h5>
+                  <span class="fa-22 text-grey">Customer</span>
+                </div>
+                <div class="testimonial testi-before position-relative">
+                  <p class="fa-22 lh-31 text-grey">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s,
+                  </p>
+                  <h5 class="testi-color text-bold fa-17">TIM MARTIN</h5>
+                  <span class="fa-22 text-grey">Customer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-7">
+        <div class="container-1520">
+          <div class="sec7-content position-relative">
+            <div class="row">
+              <div class="col-lg-7 col-md-7 col-12">
+                <div class="content-box">
+                  <div class="about position-relative">
+                    <a
+                      href=""
+                      class="text-white fa-17 text-medium text-decoration-none"
+                      >GET UPDATE</a
+                    >
+                  </div>
+                  <h5 class="text-white text-medium fa-50">
+                    Get latest updates and deals
+                  </h5>
+                  <p class="text-white fa-20 lh-27">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s,
+                  </p>
+                  <div class="sign-up position-relative">
+                    <input type="text" placeholder="Enter Your Email" />
+                    <button class="reg-btn">Subcribe</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer-color text-white">
+        <div class="container-1520">
+          <div class="footer-content">
+            <div class="footer-1">
+              <div class="footer-logo">
+                <img src="assets/footer-logo.png" alt="" />
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s,
+              </p>
+            </div>
+            <div class="footer-2">
+              <h6 class="fa-26 text-medium">Quick Links</h6>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonials</a></li>
+              </ul>
+            </div>
+            <div class="footer-3">
+              <h6 class="fa-26 text-medium">Services</h6>
+              <ul>
+                <li><a href="#">Creative Design</a></li>
+                <li><a href="#">Web Development</a></li>
+                <li><a href="#">App Development</a></li>
+                <li><a href="#">Content Writing</a></li>
+                <li><a href="#">Video Development</a></li>
+              </ul>
+            </div>
+            <div class="footer-4">
+              <div class="legal">
+                <h6 class="fa-26 text-medium">Legal</h6>
+                <ul>
+                  <li><a href="#">Terms & Condition</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                <div class="contact-us">
+                  <h6 class="fa-26 text-medium">Contact Us</h6>
+                  <ul>
+                    <li>
+                      <a href="#"
+                        ><i class="fa-solid fa-phone-volume"></i>
+                        <span>+44 987 654 321</span></a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa-solid fa-envelope"></i>
+                        <span>info@ Envisiontenx.com</span></a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright bg-white">
+          <div class="container-1520">
+            <div class="copyright-flex">
+              <div class="copyright-content">
+                <a href="" class="text-decoration-none text-light-black fa-22"
+                  >© 2022-2023 Envisiontenx</a
+                >
+              </div>
+              <div class="copyright-social">
+                <a href="#" class="text-decoration-none"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+                <a href="#" class="text-decoration-none"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+                <a href="#" class="text-decoration-none"
+                  ><i class="fa-brands fa-linkedin-in"></i
+                ></a>
+                <a href="#" class="text-decoration-none"
+                  ><i class="fa-brands fa-pinterest-p"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/slick.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script>
+      // Testi Slider
+      $(".testi-slider").slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        autoplay: false,
+        cssEase: "linear",
+        dots: true,
+        arrows: false,
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+          {
+            breakpoint: 575,
+            settings: {
+              slidesToShow: 1,
+            },
+          },
+        ],
+      });
+      // Testi Slider
+    </script>
+  </body>
+</html>
